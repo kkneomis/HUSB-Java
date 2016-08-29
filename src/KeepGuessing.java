@@ -13,11 +13,12 @@ public class KeepGuessing {
 		
 		while ( guess != secretNumber )
 		{
+			if(guess == 5)
+				break;
 			System.out.println("\nYou are wrong. Try again.");
 			System.out.println("Enter the number: ");
 			guess = keyboard.nextInt();
-			if(guess == 5)
-				break;
+			
 		}
 		
 		System.out.println("You are correct. You win a prize!");
