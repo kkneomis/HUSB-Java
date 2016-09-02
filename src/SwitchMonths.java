@@ -6,7 +6,7 @@ public class SwitchMonths {
 		
 		Scanner sc = new Scanner(System.in);
 		
-        //This program will print 'May' when you run it.
+        //This program will print the months with day specified when you run it.
 		System.out.println("Enter the number of months");
         int month = sc.nextInt();
         
