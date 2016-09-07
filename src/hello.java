@@ -3,23 +3,25 @@ import java.util.Scanner;
 public class hello {
 
     public static void main(String []args){
-        Scanner sc = new Scanner(System.in);
+        Scanner keyboard = new Scanner(System.in);
 
-        System.out.println("How is the weather?");
-        String answer = sc.nextLine();
+        String name;
+        String breed;
+        int age;
 
-        if (answer.equals("rain"))
-            System.out.println("Take your umbrella!");
-        else if (answer.equals("windy"))
-            System.out.println("Wear your jacket!");
-        else if (answer.equals("snow"))
-            System.out.println("Wear a coat and take a shovel!");
-        else if (answer.equals("stormy"))
-            System.out.println("You should stay inside");
-        else
-            System.out.println("Enjoy your day!");
-     }
+        System.out.print( "Greetings. What is your pet's name? " );
+        name = keyboard.next();
 
+
+        System.out.print( "What kind of animal is " + name + "? " );
+        breed = keyboard.next();
+
+  
+        System.out.print( "How old is " + name + "? ");
+        age = keyboard.nextInt();
+
+        System.out.println( name + " is your " + breed + " and it is " + age );
+    }
 	
 }
 
