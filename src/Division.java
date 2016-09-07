@@ -1,5 +1,10 @@
 import java.util.Scanner;
  
+/*
+ * Add Exception Handling to the following code to handle 
+ * if the user tries to enter zero as the second integer.
+ */
+
 public class Division {
   public static void main(String[] args) {
  
