@@ -21,8 +21,9 @@ public class Division {
 	  result = a / b;
   } catch(ArithmeticException e){
 	  System.out.println("You can't put 0");
+  } finally {
+    System.out.println("finally block will execute.");
   }
-  
   
   
   System.out.println("Result = " + result);
