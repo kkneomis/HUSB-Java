@@ -17,6 +17,7 @@ public class Monopoly
         		doubles_count++;
         	} else {
         		System.out.println("Move " + sum + " Spaces and stop");
+        		doubles_count = 0;
         		i = 0;
         	}
         	
